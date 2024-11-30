@@ -10,7 +10,7 @@ import io.cucumber.java.en.When;
 
 import org.openqa.selenium.WebDriver;
 import pages.AccesoWebPage;
-import utility.BrowserDriver;
+
 
 public class AccesoWebStep {
     private Playwright playwright;
@@ -21,7 +21,7 @@ public class AccesoWebStep {
     public AccesoWebStep(){
 
         this.playwright = Playwright.create();
-        this.browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false)); // Cambiar a true para modo headless
+        this.browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
     }
 
 

@@ -1,15 +1,14 @@
 package stepDefinition;
 
 import io.cucumber.java.en.*;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 
 import com.microsoft.playwright.*;
-import io.cucumber.java.en.*;
+
 import org.junit.Assert;
 import pages.RegistroUsuarioPage;
 
-import java.nio.file.Paths;
+
 import java.util.Random;
 
 public class RegistroUsuarioStep {

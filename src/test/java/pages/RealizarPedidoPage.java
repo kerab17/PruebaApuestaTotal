@@ -77,7 +77,7 @@ public class RealizarPedidoPage extends BasePage {
     }
 
     public void setValidarTexto(){
-        String selector = "//*[@id=\"maincontent\"]/div[1]/div[2]/div/div/div/a"; // Cambia este selector al correcto
+        String selector = "//*[@id=\"maincontent\"]/div[1]/div[2]/div/div/div/a";
         String textoEsperado = "shopping cart"; // Texto esperado
         validarTexto(selector, textoEsperado); // Llama al método de BasePage
     }
